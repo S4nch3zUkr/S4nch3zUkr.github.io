@@ -34,23 +34,61 @@
     height: 100%;
     width: 100%;
 }
-.section h1 {
+.headline {
     text-align: center;
-    font-size: 65px;
-    color: #fff;
-    background: linear-gradient(to bottom, #2980b9, #9b59b6, #ecf0f1);
-    max-width: 100%;
-    display: inline-block;
+    padding: 50px 20px;
+}
+.headline h1 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
     position: relative;
-    padding: 10px;
-    left: 50%;
-    transform: translate(-50%);
+    color: #FCF2E5;
+    background: #90806A;
+    font-size: 3.5em;
+    font-weight: normal;
+    padding: 10px 40px;
+    display: inline-block;
+    margin: 0;
+    line-height: 1;
+    max-width: 100%;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+.headline h1:after {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 80%;
+    border-top: 10px solid #90806A;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -25px;
+}
+@media (max-width: 500px) {
+    .headline h1 {
+        font-size: 2.8em;
+    }
+}
+@media (max-width: 400px) {
+    .headline h1 {
+        font-size: 2.5em;
+        padding: 10px 30px;
+    }
+}
+.headline h1:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -15px;
+    background: #90806A;
 }
 .container__cards {
     position: absolute;
