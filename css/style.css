@@ -96,6 +96,9 @@
     transform: translate(-50%);
     height: 100%;
 }
+.bg-light {
+    background-color: transparent;
+}
 /*.container__cards {*/
 /*max-width: 100%;*/
 /*display: block;*/
