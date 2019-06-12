@@ -96,8 +96,8 @@
     transform: translate(-50%);
     height: 100%;
 }
-.bg-light {
-    background-color: #fff!important;
+body .bg-light {
+    background-color: #fff !important;
 }
 /*.container__cards {*/
 /*max-width: 100%;*/
