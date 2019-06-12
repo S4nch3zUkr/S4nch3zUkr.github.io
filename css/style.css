@@ -97,7 +97,7 @@
     height: 100%;
 }
 .bg-light {
-    background-color: transparent !important;
+    background-color: #fff!important;
 }
 /*.container__cards {*/
 /*max-width: 100%;*/
