@@ -57,6 +57,9 @@
     -ms-user-select: none;
     user-select: none;
 }
+.bg-light {
+    background-color: transparent;
+}
 .author {
     font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
     font-size: 15px;
