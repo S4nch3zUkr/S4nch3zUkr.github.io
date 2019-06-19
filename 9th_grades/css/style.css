@@ -68,7 +68,7 @@ body .bg-light {
     font-style: normal;
 }
 .author:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: #79828B;
 }
 .date {
